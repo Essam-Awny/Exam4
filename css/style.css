@@ -1,0 +1,497 @@
+/* ----------------------------------------Start Global Rules----------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+input,textarea {
+    border: none !important;
+    background-color:#eee ;
+    outline: none;
+}
+
+
+body{
+font-family: 'Montserrat', sans-serif;
+overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'montserrat' , sans-serif;
+}
+h2{
+    font-size: 50px;
+    font-weight: 900 !important;
+}
+.dots::after{
+    content: "";
+    width: 100%;
+    height: 30px;
+    background-image: url(../images/imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    z-index: -1;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+/* ----------------------------------------End Global Rules----------------------------------- */
+
+
+/* -------------------------------------------Start Nav---------------------------------------- */
+#nav{
+font-size: 0.90rem;
+font-weight: bold !important;
+}
+
+#nav .active{
+    position: relative;
+}
+#nav .active::after{
+    position: absolute;
+    content: '';
+    width: 80%;
+    height: 2px;
+    background-color: white;
+    bottom: 5px;
+    left: 7px;
+}
+.nav-link{
+    margin: 0 0.4em;
+    font-weight: 500    ;
+}
+/* -------------------------------------------End Nav---------------------------------------- */
+
+/* -------------------------------------------Start Landing---------------------------------------- */
+#landing{
+    background-image: url(../images/imgs/bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#landing .layer{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#landing .icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.landing-header-title{
+    font-weight: 900;
+}
+#landing h1{
+    
+}
+#landing h1::after{
+    content: '';
+    animation: typing 6s infinite;
+
+}
+@keyframes typing{
+    0%{
+        content: '  l |';
+    }
+    2%{
+        content: '  la |';
+    }
+    4%{
+        content: '  lar |';
+    }
+    6%{
+        content: '  larr |';
+    }
+    8%{
+        content: '  larry |';
+    }
+    10%{
+        content: '  larry d |';
+    }
+    12%{
+        content: '  larry da |';
+    }
+    14%{
+        content: '  larry dan |';
+    }
+    16%{
+        content: '  larry dani |';
+    }
+    18%{
+        content: '  larry dnaie |';
+    }
+    20%{
+        content: '  larry daniel |';
+    }
+    22%{
+        content: '  larry daniels |';
+    }
+    24%{
+        content: '  larry daniel |';
+    }
+    26%{
+        content: '  larry danie |';
+    }
+    28%{
+        content: '  larry dani |';
+    }
+    30%{
+        content: '  larry dan |';
+    }
+    32%{
+        content: '  larry da |';
+    }
+    34%{
+        content: '  larry d |';
+    }
+    36%{
+        content: '  larry |';
+    }
+    38%{
+        content: '  larr |';
+    }
+    40%{
+        content: '  lar |';
+    }
+    42%{
+        content: '  la |';
+    }
+    44%{
+        content: '  l |';
+    }
+    46%{
+        content: '  l |';
+    }
+    48%{
+        content: ' | ';
+    }
+    50%{
+        content: '  d |';
+    }
+    52%{
+        content: '  de |';
+    }
+    54%{
+        content: '  dev |';
+    }
+    56%{
+        content: ' deve |';
+    }
+    58%{
+        content: '  devel |';
+    }
+    60%{
+        content: '  develo |';
+    }
+    62%{
+        content: '  develop |';
+    }
+    64%{
+        content: '  develope |';
+    }
+    66%{
+        content: '  developer |';
+    }
+    68%{
+        content: '  develope |';
+    }
+    70%{
+        content: '  develop |';
+    }
+    72%{
+        content: '  develo |';
+    }
+    74%{
+        content: '  devel |';
+    }
+    76%{
+        content: '  deve |';
+    }
+    78%{
+        content: '  dev |';
+    }
+    80%{
+        content: '  de |';
+    }
+    82%{
+        content: '  d |';
+    }
+    84%{
+        content: ' | ';
+    }
+    86%{
+        content: '  E |';
+    }
+    88%{
+        content: '  ES |';
+    }
+    90%{
+        content: '  Ess |';
+    }
+    92%{
+        content: '  Essa |';
+    }
+    94%{
+        content: '  Essam |';
+    }
+    96%{
+        content: '  Ess |';
+    }
+    98%{
+        content: '  Es |';
+    }
+    100%{
+        content: ' | ';
+    }
+} 
+/* -------------------------------------------End Landing---------------------------------------- */
+
+/* -------------------------------------------Start About---------------------------------------- */
+#about h3{
+    font-weight: 900 !important;
+}
+#about .progress{
+    height: 25px;
+    border-radius: 5px;
+    box-shadow: 2px 2px #DFDFDF inset;
+}
+
+#about .content .buttons .one:hover{
+    background-color: white !important;
+    border: black solid 1px !important;
+}
+#about .content .buttons .one:hover .mail{
+    color: black !important;
+}
+#about .content .buttons .two:hover{
+    background-color: black !important;
+}
+#about .content .buttons .two:hover .load{
+    color: white !important;
+}
+#about .content .buttons {
+    transition: all 0.3s;
+}
+#about .progress-bar{
+    text-align: left;
+    padding-left: 10px;
+    
+}
+
+/* -------------------------------------------End About---------------------------------------- */
+
+/* -------------------------------------------Start Services---------------------------------------- */
+#services{
+    background-color: #f7f7f7;
+}
+#services h2{
+    font-weight: 900 !important;
+}
+#services .icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    transition: 0.4s;
+}
+#services .card:hover .icon{
+    background-color: black;
+    color: white;
+}
+/* -------------------------------------------End Services---------------------------------------- */
+
+/* -------------------------------------------Start Portfolio---------------------------------------- */
+#work .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: transparent ;
+    color: black;
+    border-bottom: 2px solid black;
+    border-radius: 0;
+}
+#work h2{
+    font-weight: 900 !important;
+}
+#work .icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#work .layer{
+    background-color:rgba(255, 255, 255, 0.9);
+    border: 5px solid #D7D5D6;
+    top: 0%;
+    z-index: -1;
+    transition: all 250ms ease-in-out;
+}
+
+#work .card:hover .layer{
+    z-index: 1;
+}
+/* -------------------------------------------End Portfolio---------------------------------------- */
+
+/* ---------------------------------------------Start Testimonials---------------------------------------- */
+
+#clients{
+    background-color: #f7f7f7;
+}
+#clients h2{
+    font-weight: 900 !important;
+}
+#clients img{
+    width: 80px;
+}
+#clients .text-2 .envato{
+    font-size: 12px;
+    
+}
+#clients .carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+     background-color: #c2c1c1; 
+    opacity: 0.3;
+    margin: 0 5px;
+    
+}
+.carousel-indicators .active {
+    background-color: black !important;
+}
+
+/* ---------------------------------------------End Testimonials---------------------------------------- */
+
+/* ---------------------------------------------Start Number---------------------------------------- */
+#number h3{
+    font-weight: 800;
+}
+/* ---------------------------------------------End Number---------------------------------------- */
+
+/* ---------------------------------------------Start Team---------------------------------------- */
+#team{
+    background-color: #f7f7f7;
+}
+#team h2{
+    font-weight: 900 !important;
+}
+#team .card .card-body{
+    background-color: #5B5B5B;
+}
+/* #team .lay-out{
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 100%;
+    top: 0%;
+} */
+
+#team .icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+/* -----------------------------------------------End Team--------------------------------------------- */
+
+/* -----------------------------------------------Start Contact--------------------------------------------- */
+#contact .icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    transition: 0.5s;
+}
+#contact form input{
+    width: 45%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0 10px;
+    text-transform: capitalize;
+}
+#contact form textarea{
+    width: 91%;
+    height: 150px;
+    padding: 0 10px;
+
+}
+#contact .item:hover .icon{
+    background-color: black;
+    color: white;
+}
+#contact .button{
+    margin-left: 53px;
+    margin-top: 10px;
+    height: 40px;
+
+}
+#contact .bu-co{
+    padding: 10px 30px;
+    transition: 0.5s;
+    
+}
+#contact .bu-co:hover{
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid black !important;
+}
+
+/* -----------------------------------------------End Contact--------------------------------------------- */
+
+/* -----------------------------------------------Start Footer--------------------------------------------- */
+#footer{
+    background-color: black;
+    color: #6C7F7C;
+    height: 100px;
+}
+#footer p{
+    font-size: 15px;
+    padding-top: 30px;
+}
+/* -----------------------------------------------End Footer--------------------------------------------- */
